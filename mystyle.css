@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* This file is used to style the index.html file
+Author: Esenwa Michael 000876059
+Date: 26th Febuary, 2023 */
+
+/*Body style  */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Button style */
+#button {
+    width: 100%;
+}
+
+/* Img Animation  */
+.animate {
+    transition: 0.8s ease-in;
+    transform: rotateY(360deg);
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+#countdown {
+    padding: 0.4em;
+    border-radius: 0.4em;
+}
+
+.mask {
+    width: 15%;
+    height: 15%;
+}
+
+h1 {
+    background-image: linear-gradient(red, yellow);
+}
