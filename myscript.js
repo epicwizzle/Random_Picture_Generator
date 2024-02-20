@@ -8,8 +8,8 @@
 // This is the array that holds a set of 2D images
 const images = [];
 images[0] = ["1.jpg", "2.jpg", "3.png"]; //Starwars https://www.starwars.com/games-apps/star-wars-card-trader
-images[1] = ["/4.jpg", "5.jpg", "6.jpg"]; //DC https://dcdualforce.com/
-images[2] = ["/7.jpg", "8.jpg", "9.jpg"]; // Marvel https://marvelsnap.io/card-database/?&sort=name&limit=20&offset=40
+images[1] = ["4.jpg", "5.jpg", "6.jpg"]; //DC https://dcdualforce.com/
+images[2] = ["7.jpg", "8.jpg", "9.jpg"]; // Marvel https://marvelsnap.io/card-database/?&sort=name&limit=20&offset=40
 
 let interval;
 var time = 10000; //initial time the countdown will start (10secs)
